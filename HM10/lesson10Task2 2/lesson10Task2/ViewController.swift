@@ -12,9 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .orange
-        
     }
-
 
     @IBAction func StartButton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "SecondStoryboard", bundle: Bundle.main)

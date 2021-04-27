@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         startButtonOutlet.setTitle("Start", for: .normal)
     }
     
-    
     @IBAction func startButton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "SecondStoryboard", bundle: Bundle.main)
         if let vc = storyboard.instantiateViewController(identifier: "SecondViewController") as? SecondViewController {

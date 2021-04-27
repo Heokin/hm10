@@ -11,14 +11,16 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var checkView: UIView!
     @IBOutlet weak var viewOutlet: UIView!
+    
     var xLocation: Int = 100
     var yLocation: Int = 100
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         viewOutlet.backgroundColor = .black
         viewOutlet.frame = CGRect(x: xLocation, y: yLocation, width: 70, height: 70)
         view.backgroundColor = .orange
-      title = "LONG PRESS"
+        title = "LONG PRESS"
     }
     
     @IBAction func longGesture(_ sender: UIGestureRecognizer) {
